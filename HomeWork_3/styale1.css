@@ -1,0 +1,74 @@
+body 
+{
+  background-image: url("images/salt.jpg");
+  background-size: 100%;
+  background-attachment: fixed
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  text-shadow:
+      0 0 4px #fff,
+      0 0 8px #fff,
+      0 0 16px #fff,
+      0 0 32px #0fa,
+      0 0 64px #0fa,
+      0 0 128px #0fa;
+}
+
+a {
+color: #0075B2;
+text-decoration: none;
+ }
+ 
+a:hover {
+color: #35b8a2;
+text-decoration: underline;
+ }
+
+.red_class {
+background-color: rgb(255, 0, 0);
+}
+
+.yellow_class {
+background-color: rgb(255, 255, 0);
+}
+.border_class {
+background-color: #b1bec7;
+}
+
+
+table { 
+table-layout: fixed;
+width: 100%; 
+border: 1;
+border-spacing: 10;
+}
+
+.table_class1 {
+word-break: normal
+}
+
+
+caption {
+color: white;
+text-align: left;
+padding: 10px 0;
+font-size: 35px;
+background-color: #231f20;
+}
+
+td {
+border: solid 0px;
+font-size: 15px;
+text-align: center;
+}
+
+tr {
+text-align: center;
+padding: 10px;
+}
