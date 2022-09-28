@@ -1,0 +1,93 @@
+.about{
+    color:#fff;
+    background-color: #a87a7a; /* коричневый фон секции "Обо мне"  */
+    text-align:center; /* позиционирование текста */
+    padding: 5em 0em; /* отступы для текста */
+}
+
+.wrap_about{
+    width: 90%; /* занимаемая ширина блоков по отношению к браузеру */
+    margin: 0 auto; /* расположение секций по центру */
+}
+
+.about h2{
+    font-size:2em;
+    padding-bottom: 0.5em; /* отступ снизу для заголовка */
+}
+
+.about p{
+    font-size:1em;
+    padding-bottom: 4em; /* отступ снизу для параграфа */
+}
+
+.grid{
+    width: 16.8%; /* ширина белого блока */
+    float: left; /* выстраивание в ряд трех белых блоков */
+    background-color: rgb(0, 0, 0); /* цвет блока */
+    margin: 0 1.5% 0 1.5%; /* отступы для белых блоков */
+    border: 1px solid rgb(221, 75, 75);
+    min-height: 50px; /* минимальная высота белых блоков */
+}
+
+.img{
+    transition: 1s; /* Время эффекта */
+}
+
+.img:hover{
+    transform: scale(1.2);/* Увеличиваем масштаб */
+
+}
+
+.grid  h3{ /* цвет,размер и верхний отступ для заголовка белого блока */
+    color: #e7dbdb;
+    font-size: 1.4em;
+    margin-top: 14%;
+} 
+
+.rating{
+    list-style-type: none;
+}
+
+.rating li{
+    list-style-type: none;
+    display: inline-block;
+    color: #ffcc31;
+    margin-top: 5%;
+}
+
+.add-to-basket{
+    border: none;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(86, 173, 86);
+    border-radius: 5px;
+}
+
+.add-to-favorit{
+    border: none;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(199, 83, 74);
+    border-radius: 5px;
+}
+
+.add-to-comparet{
+    border: none;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(92, 76, 163);
+    border-radius: 5px;
+}
+
+.info-praice{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
