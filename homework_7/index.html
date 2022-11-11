@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styal.css">
-    <title>homework_7</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styal.css">
+	<title>Homework_7</title>
 </head>
 <body>
-    <main>
-        <form class="wrapp-window">
-            <h1 class="wrapp-window__h1">Вход</h1>
-        <div class="wrapp-window__register">
-            <lable class="wrapp-window-register__label" for="name">Email</lable></li>
-            <input class="wrapp-window-register__email" id="email" name="email" type="email" placeholder="Введите email"></table> 
-        </div>
-        <div>
-            <label class="wrapp-window-register__label" for="password">Пароль</label>
-            <input class="wrapp-window-register__password" id="password" name="password" type="password" placeholder="Введите пароль"></table>
-        </div>
-        <div>
-            <input class="wrapp-window-register__checkbox" id="checkbox-1" type="checkbox" name="colors" value="RED"> 
-            <label class="wrapp-window-register__checkbox" for="checkbox">Я согласен получать обновления на почту</label>   
-        </div>
-            <button class="wrapp-window-register__button" type="submit">Войти</button>          
-        </form>
-    </main>
+	<main class="main">
+		<div class="main-form__wrapper">
+			<form action="" class="main__form form" method="get">
+				<h1 class="form__title">Вход</h1>
+				<div class="form-input__email-wrapper">
+					<input class="form-input__email" type="email" name="email" id="email" value="" required="required"
+						placeholder="Введите email">
+					<label class="form-label__email" for="email">Email</label>
+				</div>
+				<div class="form-input__pass-wrapper">
+					<input class="form-input__pass" type="password" name="password" id="pass" required="required"
+						placeholder="Введите Пароль">
+					<label class="form-label__pass" for="pass">Пароль</label>
+				</div>
+				<div class="form-input__check-wrapper">
+					<input class="form-input__checkbox" type="checkbox" name="checkbox" id="check" value="yes">
+					<label class="form-label__check" for="check">Я согласен получать обновления на почту</label>
+				</div>
+				<button class="form__button" type="submit">Войти</button>
+			</form>
+		</div>
+	</main>
 </body>
 </html>
